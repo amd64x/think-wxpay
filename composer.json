@@ -1,0 +1,25 @@
+{
+  "name": "kelude/think-wxpay",
+  "description": "基于微信官方WxpayAPI_php_v3.0.1修改",
+  "type": "project",
+  "keywords": [
+    "wxpay",
+    "thinkphp"
+  ],
+  "homepage": "https://github.com/kelude/think-wxpay",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "kelude",
+      "email": "mail@kelude.org"
+    }
+  ],
+  "require" : {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "wxpay\\": "src/"
+    }
+  }
+}
